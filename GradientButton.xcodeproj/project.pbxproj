@@ -15,6 +15,8 @@
 		1C01F9E914BCCA99005BE088 /* LCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C01F9E814BCCA99005BE088 /* LCAppDelegate.m */; };
 		1C01F9EC14BCCA99005BE088 /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C01F9EB14BCCA99005BE088 /* LCViewController.m */; };
 		1C01F9EF14BCCA99005BE088 /* LCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C01F9ED14BCCA99005BE088 /* LCViewController.xib */; };
+		1C01F9F714BCCB21005BE088 /* LCGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C01F9F614BCCB21005BE088 /* LCGradientButton.m */; };
+		1C01F9F914BCCE1C005BE088 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C01F9F814BCCE1C005BE088 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,18 @@
 		1C01F9D814BCCA98005BE088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C01F9DA14BCCA98005BE088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C01F9DC14BCCA98005BE088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1C01F9E014BCCA98005BE088 /* GradientButton-Info.plist */ = {isa = PBXFileReference; path = "GradientButton-Info.plist"; sourceTree = "<group>"; };
+		1C01F9E014BCCA98005BE088 /* GradientButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradientButton-Info.plist"; sourceTree = "<group>"; };
 		1C01F9E214BCCA99005BE088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C01F9E414BCCA99005BE088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C01F9E614BCCA99005BE088 /* GradientButton-Prefix.pch */ = {isa = PBXFileReference; path = "GradientButton-Prefix.pch"; sourceTree = "<group>"; };
-		1C01F9E714BCCA99005BE088 /* LCAppDelegate.h */ = {isa = PBXFileReference; path = LCAppDelegate.h; sourceTree = "<group>"; };
+		1C01F9E614BCCA99005BE088 /* GradientButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GradientButton-Prefix.pch"; sourceTree = "<group>"; };
+		1C01F9E714BCCA99005BE088 /* LCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCAppDelegate.h; sourceTree = "<group>"; };
 		1C01F9E814BCCA99005BE088 /* LCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAppDelegate.m; sourceTree = "<group>"; };
-		1C01F9EA14BCCA99005BE088 /* LCViewController.h */ = {isa = PBXFileReference; path = LCViewController.h; sourceTree = "<group>"; };
+		1C01F9EA14BCCA99005BE088 /* LCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCViewController.h; sourceTree = "<group>"; };
 		1C01F9EB14BCCA99005BE088 /* LCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
 		1C01F9EE14BCCA99005BE088 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCViewController.xib; sourceTree = "<group>"; };
+		1C01F9F514BCCB00005BE088 /* LCGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCGradientButton.h; sourceTree = "<group>"; };
+		1C01F9F614BCCB21005BE088 /* LCGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCGradientButton.m; sourceTree = "<group>"; };
+		1C01F9F814BCCE1C005BE088 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C01F9F914BCCE1C005BE088 /* QuartzCore.framework in Frameworks */,
 				1C01F9D914BCCA98005BE088 /* UIKit.framework in Frameworks */,
 				1C01F9DB14BCCA98005BE088 /* Foundation.framework in Frameworks */,
 				1C01F9DD14BCCA98005BE088 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +73,7 @@
 		1C01F9D714BCCA98005BE088 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C01F9F814BCCE1C005BE088 /* QuartzCore.framework */,
 				1C01F9D814BCCA98005BE088 /* UIKit.framework */,
 				1C01F9DA14BCCA98005BE088 /* Foundation.framework */,
 				1C01F9DC14BCCA98005BE088 /* CoreGraphics.framework */,
@@ -79,6 +86,8 @@
 			children = (
 				1C01F9E714BCCA99005BE088 /* LCAppDelegate.h */,
 				1C01F9E814BCCA99005BE088 /* LCAppDelegate.m */,
+				1C01F9F514BCCB00005BE088 /* LCGradientButton.h */,
+				1C01F9F614BCCB21005BE088 /* LCGradientButton.m */,
 				1C01F9EA14BCCA99005BE088 /* LCViewController.h */,
 				1C01F9EB14BCCA99005BE088 /* LCViewController.m */,
 				1C01F9ED14BCCA99005BE088 /* LCViewController.xib */,
@@ -163,6 +172,7 @@
 				1C01F9E514BCCA99005BE088 /* main.m in Sources */,
 				1C01F9E914BCCA99005BE088 /* LCAppDelegate.m in Sources */,
 				1C01F9EC14BCCA99005BE088 /* LCViewController.m in Sources */,
+				1C01F9F714BCCB21005BE088 /* LCGradientButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

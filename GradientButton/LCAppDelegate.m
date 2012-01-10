@@ -3,7 +3,7 @@
 //  GradientButton
 //
 //  Created by Jonathan Lundell on 1/10/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 LobitosCreek. All rights reserved.
 //
 
 #import "LCAppDelegate.h"
