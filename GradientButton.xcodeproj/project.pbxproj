@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C01F9D914BCCA98005BE088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C01F9D814BCCA98005BE088 /* UIKit.framework */; };
+		1C01F9DB14BCCA98005BE088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C01F9DA14BCCA98005BE088 /* Foundation.framework */; };
+		1C01F9DD14BCCA98005BE088 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C01F9DC14BCCA98005BE088 /* CoreGraphics.framework */; };
+		1C01F9E314BCCA99005BE088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C01F9E114BCCA99005BE088 /* InfoPlist.strings */; };
+		1C01F9E514BCCA99005BE088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C01F9E414BCCA99005BE088 /* main.m */; };
+		1C01F9E914BCCA99005BE088 /* LCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C01F9E814BCCA99005BE088 /* LCAppDelegate.m */; };
+		1C01F9EC14BCCA99005BE088 /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C01F9EB14BCCA99005BE088 /* LCViewController.m */; };
+		1C01F9EF14BCCA99005BE088 /* LCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C01F9ED14BCCA99005BE088 /* LCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C01F9D414BCCA98005BE088 /* GradientButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C01F9D814BCCA98005BE088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C01F9DA14BCCA98005BE088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C01F9DC14BCCA98005BE088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C01F9E014BCCA98005BE088 /* GradientButton-Info.plist */ = {isa = PBXFileReference; path = "GradientButton-Info.plist"; sourceTree = "<group>"; };
+		1C01F9E214BCCA99005BE088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C01F9E414BCCA99005BE088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C01F9E614BCCA99005BE088 /* GradientButton-Prefix.pch */ = {isa = PBXFileReference; path = "GradientButton-Prefix.pch"; sourceTree = "<group>"; };
+		1C01F9E714BCCA99005BE088 /* LCAppDelegate.h */ = {isa = PBXFileReference; path = LCAppDelegate.h; sourceTree = "<group>"; };
+		1C01F9E814BCCA99005BE088 /* LCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAppDelegate.m; sourceTree = "<group>"; };
+		1C01F9EA14BCCA99005BE088 /* LCViewController.h */ = {isa = PBXFileReference; path = LCViewController.h; sourceTree = "<group>"; };
+		1C01F9EB14BCCA99005BE088 /* LCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
+		1C01F9EE14BCCA99005BE088 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C01F9D114BCCA98005BE088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C01F9D914BCCA98005BE088 /* UIKit.framework in Frameworks */,
+				1C01F9DB14BCCA98005BE088 /* Foundation.framework in Frameworks */,
+				1C01F9DD14BCCA98005BE088 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C01F9C914BCCA98005BE088 = {
+			isa = PBXGroup;
+			children = (
+				1C01F9DE14BCCA98005BE088 /* GradientButton */,
+				1C01F9D714BCCA98005BE088 /* Frameworks */,
+				1C01F9D514BCCA98005BE088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C01F9D514BCCA98005BE088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C01F9D414BCCA98005BE088 /* GradientButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C01F9D714BCCA98005BE088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C01F9D814BCCA98005BE088 /* UIKit.framework */,
+				1C01F9DA14BCCA98005BE088 /* Foundation.framework */,
+				1C01F9DC14BCCA98005BE088 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C01F9DE14BCCA98005BE088 /* GradientButton */ = {
+			isa = PBXGroup;
+			children = (
+				1C01F9E714BCCA99005BE088 /* LCAppDelegate.h */,
+				1C01F9E814BCCA99005BE088 /* LCAppDelegate.m */,
+				1C01F9EA14BCCA99005BE088 /* LCViewController.h */,
+				1C01F9EB14BCCA99005BE088 /* LCViewController.m */,
+				1C01F9ED14BCCA99005BE088 /* LCViewController.xib */,
+				1C01F9DF14BCCA98005BE088 /* Supporting Files */,
+			);
+			path = GradientButton;
+			sourceTree = "<group>";
+		};
+		1C01F9DF14BCCA98005BE088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C01F9E014BCCA98005BE088 /* GradientButton-Info.plist */,
+				1C01F9E114BCCA99005BE088 /* InfoPlist.strings */,
+				1C01F9E414BCCA99005BE088 /* main.m */,
+				1C01F9E614BCCA99005BE088 /* GradientButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C01F9D314BCCA98005BE088 /* GradientButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C01F9F214BCCA99005BE088 /* Build configuration list for PBXNativeTarget "GradientButton" */;
+			buildPhases = (
+				1C01F9D014BCCA98005BE088 /* Sources */,
+				1C01F9D114BCCA98005BE088 /* Frameworks */,
+				1C01F9D214BCCA98005BE088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientButton;
+			productName = GradientButton;
+			productReference = 1C01F9D414BCCA98005BE088 /* GradientButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C01F9CB14BCCA98005BE088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1C01F9CE14BCCA98005BE088 /* Build configuration list for PBXProject "GradientButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C01F9C914BCCA98005BE088;
+			productRefGroup = 1C01F9D514BCCA98005BE088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C01F9D314BCCA98005BE088 /* GradientButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C01F9D214BCCA98005BE088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C01F9E314BCCA99005BE088 /* InfoPlist.strings in Resources */,
+				1C01F9EF14BCCA99005BE088 /* LCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C01F9D014BCCA98005BE088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C01F9E514BCCA99005BE088 /* main.m in Sources */,
+				1C01F9E914BCCA99005BE088 /* LCAppDelegate.m in Sources */,
+				1C01F9EC14BCCA99005BE088 /* LCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C01F9E114BCCA99005BE088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C01F9E214BCCA99005BE088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C01F9ED14BCCA99005BE088 /* LCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C01F9EE14BCCA99005BE088 /* en */,
+			);
+			name = LCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C01F9F014BCCA99005BE088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C01F9F114BCCA99005BE088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C01F9F314BCCA99005BE088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradientButton/GradientButton-Prefix.pch";
+				INFOPLIST_FILE = "GradientButton/GradientButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C01F9F414BCCA99005BE088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GradientButton/GradientButton-Prefix.pch";
+				INFOPLIST_FILE = "GradientButton/GradientButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C01F9CE14BCCA98005BE088 /* Build configuration list for PBXProject "GradientButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C01F9F014BCCA99005BE088 /* Debug */,
+				1C01F9F114BCCA99005BE088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C01F9F214BCCA99005BE088 /* Build configuration list for PBXNativeTarget "GradientButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C01F9F314BCCA99005BE088 /* Debug */,
+				1C01F9F414BCCA99005BE088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C01F9CB14BCCA98005BE088 /* Project object */;
+}
