@@ -3,7 +3,7 @@
 //  Rounded-rect UIButton with color gradient, shadow, and optional image
 //
 //  Created by Jonathan Lundell on 1/8/12.
-//
+//  Version 1.0  2012-01-10
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
