@@ -29,7 +29,8 @@
     //
     //  create a button with a tighter corner radius
     //
-    LCGradientButton *button = [LCGradientButton gradientButtonWithFrame:CGRectMake(100.0, 200.0, 120.0, 37.0) 
+    CGFloat y = 200.0;
+    LCGradientButton *button = [LCGradientButton gradientButtonWithFrame:CGRectMake(100.0, y, 120.0, 37.0) 
                                                                    title:@"Programmatic"];
     [button setLowColor:[UIColor redColor] highColor:[UIColor whiteColor]];
     button.cornerRadius = 37.0/3;   // 1/3 of button height
@@ -37,7 +38,8 @@
     //
     //  create a button with no shadow
     //
-    button = [LCGradientButton gradientButtonWithFrame:CGRectMake(100.0, 250.0, 120.0, 37.0) 
+    y += 50.0;
+    button = [LCGradientButton gradientButtonWithFrame:CGRectMake(100.0, y, 120.0, 37.0) 
                                                                    title:@"Shadowless"];
     [button setLowColor:[UIColor redColor]];
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
@@ -46,12 +48,24 @@
     //
     //  create a button with a dark gray border
     //
-    button = [LCGradientButton gradientButtonWithFrame:CGRectMake(100.0, 300.0, 120.0, 37.0) 
+    y += 50.0;
+    button = [LCGradientButton gradientButtonWithFrame:CGRectMake(100.0, y, 120.0, 37.0) 
                                                  title:@"Bordered"];
     [button setLowColor:[UIColor colorWithRed:0.0 green:0.5 blue:0.0 alpha:1.0]];
     button.cornerRadius = 37.0/4;   // 1/4 of button height
     button.borderColor = [UIColor darkGrayColor];
     button.layer.borderWidth = 2.0;
+    [self.view addSubview:button];
+    //
+    //  create a button with an image
+    //
+    y += 50.0;
+    button = [LCGradientButton gradientButtonWithFrame:CGRectMake(125.0, y, 70.0, 37.0) 
+                                                 title:nil];
+    //[button setLowColor:[UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:1.0]];
+    [button setLowColor:[UIColor colorWithWhite:0.7 alpha:1.0]];
+    button.cornerRadius = 37.0/3;
+    button.image = [UIImage imageNamed:@"camera.png"];
     [self.view addSubview:button];
 }
 
