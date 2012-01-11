@@ -102,9 +102,12 @@ static UIColor *defaultTextColor;
 //  Given a low color, create a high color halfway to white
 //
 - (void)setLowColor:(UIColor *)lowColor {
-    CGFloat r, g, b, a;
+    CGFloat r, g, b, a, w;
     if ([lowColor getRed:&r green:&g blue:&b alpha:&a]) {
         UIColor *highColor = [UIColor colorWithRed:0.5+r/2 green:0.5+g/2 blue:0.5+b/2 alpha:a];
+        [self setColors:[NSArray arrayWithObjects:highColor, lowColor, nil]];
+    } else if ([lowColor getWhite:&w alpha:&a]) {
+        UIColor *highColor = [UIColor colorWithWhite:0.5+w/2 alpha:a];
         [self setColors:[NSArray arrayWithObjects:highColor, lowColor, nil]];
     }
 }
@@ -153,7 +156,7 @@ static UIColor *defaultTextColor;
 - (void)setImage:(UIImage *)image {
     if (!self.imageLayer) {
         CALayer *image_layer = [CALayer layer];
-        CGFloat inset = 4.0;    // inset resized image from edges of button
+        CGFloat inset = 6.0;    // inset resized image from edges of button
         image_layer.frame = CGRectMake(inset, inset, self.bounds.size.width-inset*2, self.bounds.size.height-inset*2);
         [self.layer addSublayer:image_layer];
         image_layer.zPosition = ZPOSITION_IMAGE;
