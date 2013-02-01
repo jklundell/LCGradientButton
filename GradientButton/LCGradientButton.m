@@ -5,6 +5,7 @@
 //  Created by Jonathan Lundell on 1/8/12.
 //
 #import "LCGradientButton.h"
+#import <objc/runtime.h>
 
 #define ZPOSITION_GRADIENT  -1.0
 #define ZPOSITION_IMAGE 1.0
@@ -55,7 +56,7 @@ static UIColor *defaultTextColor;
     
     LCGradientButton *button = [super buttonWithType:UIButtonTypeRoundedRect];
     if (button) {
-        button->isa = [LCGradientButton class];
+        object_setClass(button, LCGradientButton.class);
         button.frame = frame;
         [button setTitle:title forState:UIControlStateNormal];
         button.showsTouchWhenHighlighted = YES;
